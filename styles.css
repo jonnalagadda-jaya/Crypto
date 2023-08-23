@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+.main-container{
+    width: 90%;
+    height: 300px;
+    background-color: lightgray;
+    margin-left: 50px;
+
+}
+#amount{
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.box1 {
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.box2 {
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    margin-left: 60px; 
+}
+.button1{
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    width: 10em;
+    height: 6vh;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#result{
+    text-align: center;
+}

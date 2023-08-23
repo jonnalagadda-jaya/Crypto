@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Converter and calculator</title>
+   <!-- <link rel="stylesheet" href="styles.css">  -->
+</head>
+<body>
+    <h1>Cryptocurrency Converter Calculator</h1>
+
+<div class="main-container">
+    <div class="container">
+        <div class="numberbox"> 
+        <input type="number" id="amount" name="number">
+    </div>
+        <select class="box1" id="currency">
+      <option value="Usa">United States Dollar (USD)</option>
+      <option value="Euro">Euro (EUR)</option>
+      <option value="British">British Pound (GBP)</option>
+      <option value="Indian">Indian rupee()</option>
+        </select>
+        <select class="box2" id="Cryptocurrency">
+    <option value="Usa">Ethereum(ETH)</option>
+      <option value="Bitcoin">Bitcoin(BTC)</option>
+      <option value="Tether"> Tether(USDT)</option>
+      <option value="USD">USD Coin (USDC)</option>
+        </select>
+        <div class="button1">
+        <button type="button" onclick="currencyConvert()"> Convert</button>
+    </div>
+
+    <p id="result">Output: </p>
+    
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
