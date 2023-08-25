@@ -3,37 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cryptocurrency Converter and calculator</title>
-   <!-- <link rel="stylesheet" href="styles.css">  -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
     <h1>Cryptocurrency Converter Calculator</h1>
 
-<div class="main-container">
-    <div class="container">
-        <div class="numberbox"> 
-        <input type="number" id="amount" name="number">
-    </div>
+    <div class="main-container">
+      <div class="container">
+        <div class="numberbox">
+          <input type="number" id="amount" name="number" />
+        </div>
         <select class="box1" id="currency">
-      <option value="Usa">United States Dollar (USD)</option>
-      <option value="Euro">Euro (EUR)</option>
-      <option value="British">British Pound (GBP)</option>
-      <option value="Indian">Indian rupee()</option>
+          <option value="usd">United States Dollar (USD)</option>
+          <option value="eur">Euro (EUR)</option>
+          <option value="gbp">British Pound (GBP)</option>
+          <option value="inr">Indian rupee(INR)</option>
+          </select>
+<select class="box2" id="cryptocurrency">
+          <option value="eth">Ethereum(ETH)</option>
+          <option value="btc">Bitcoin(BTC)</option>
+          <option value="usdt">Tether(USDT)</option>
+          <option value="usdc">USD Coin (USDC)</option>
         </select>
-        <select class="box2" id="Cryptocurrency">
-    <option value="Usa">Ethereum(ETH)</option>
-      <option value="Bitcoin">Bitcoin(BTC)</option>
-      <option value="Tether"> Tether(USDT)</option>
-      <option value="USD">USD Coin (USDC)</option>
-        </select>
-        <div class="button1">
-        <button type="button" onclick="currencyConvert()"> Convert</button>
-    </div>
+<div class="button1">
+          <button type="button" onclick="currencyConvert()">Convert</button>
+        </div>
 
-    <p id="result">Output: </p>
-    
-</div>
-</div>
-    <script src="script.js"></script>
+        <p id="result">Output:</p>
+      </div>
+    </div>
+    <script src="cryptodig.js"></script>
 </body>
 </html>
